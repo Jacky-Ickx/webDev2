@@ -1,0 +1,18 @@
+#form {
+    text-align: center;
+    margin: 5px;
+}
+
+#container {
+    border-style: solid;
+    border-width: 2px;
+    margin: 5px;
+}
+
+.numBox {
+    border: solid 1px orange;
+    padding: 5px;
+    margin: 0px 5px;
+    width: min-content;
+    display: inline-block;
+}
