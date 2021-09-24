@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="functions.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <title>ToDo-List</title>
+</head>
+<body>
+<div id="header">
+  This is a ToDo-List website
+</div>
+<div id="new">
+    <div id="Item">
+        <input id="day" type="number" placeholder="day">
+        <input id="month" type="number" placeholder="month">
+        <input id="year" type="number" placeholder="year">
+        <input id="todo" type="text" placeholder="ToDo">
+        <select id="parentList">
+            <option selected="true">test</option>
+        </select>
+        <button onclick="createItem">Create Item</button>
+    </div>
+    <div id="List">
+        <input id="name" type="text" placeholder="Name of new List">
+        <button onclick="createList()">Create List</button>
+    </div>
+</div>
+<div id="container">
+
+</div>
+</body>
+</html>
